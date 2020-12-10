@@ -32,7 +32,7 @@ window.onload = function(){
     for (let i=0; i<matrix.length; i++){
         for (let j=0; j<matrix[i].length; j++){
             setTimeout(function(){
-                document.getElementById("matrix").innerHTML += matrix[i].charAt(j);
+                document.getElementById("code").innerHTML += matrix[i].charAt(j);
                 console.log("ZEICHEN");
             }, 50*j);
             console.log("pause");

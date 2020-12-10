@@ -24,6 +24,7 @@ html, body{
 	font-family: Roboto-mono, monospace;
 	color: #009000;
 	font-size: medium;
+/*	writing-mode: vertical-lr;	*/
 }
 
 #matrix{
